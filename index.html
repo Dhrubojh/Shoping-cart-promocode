@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Shopping Cart</h1>
+    <div id="cart-count">Cart: 0</div>
+  </header>
+  <main>
+    <section id="products"></section>
+    <section id="cart">
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+      <div id="cart-summary">
+        <p>Total: $<span id="cart-total">0.00</span></p>
+        <button id="clear-cart">Clear Cart</button>
+      </div>
+    </section>
+    <section id="cart">
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+      <div id="cart-summary">
+        <p>Subtotal: $<span id="cart-subtotal">0.00</span></p>
+        <div id="promo-section">
+          <input type="text" id="promo-code" placeholder="Enter promo code">
+          <button id="apply-promo">Apply</button>
+          <p id="promo-message"></p>
+        </div>
+        <p>Discount: $<span id="cart-discount">0.00</span></p>
+        <p>Final Total: $<span id="cart-total">0.00</span></p>
+        <button id="clear-cart">Clear Cart</button>
+      </div>
+    </section>
+    
+  </main>
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/ui.js"></script>
+</body>
+</html>

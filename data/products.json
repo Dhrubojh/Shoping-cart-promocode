@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "Herbal Blend Tea",
+      "description": "High-quality product.",
+      "price": 20.99,
+      "image": "./assets/product-a.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Herbarium",
+      "description": "A Timeless Collection of Earth’s Green Wonders.",
+      "price": 15.49,
+      "image": "./assets/product-b.jpg"
+    }
+  ]
+  
